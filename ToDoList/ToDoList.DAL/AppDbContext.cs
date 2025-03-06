@@ -9,6 +9,5 @@ public class AppDbContext : DbContext
     {
         Database.EnsureCreated();
     }
-    
     public DbSet<TaskEntity> Tasks { get; set; }
 }
